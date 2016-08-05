@@ -19,9 +19,8 @@ export default class NavBar extends Component {
           <NavDropdown eventKey={4} title="What I learned" id="basic-nav-dropdown">
             <MenuItem eventKey={4.1}>Technologies</MenuItem>
             <MenuItem eventKey={4.2}>Non tech</MenuItem>
-            <MenuItem eventKey={4.3}>Something else here</MenuItem>
             <MenuItem divider />
-            <MenuItem eventKey={4.3}>Separated link</MenuItem>
+            <MenuItem eventKey={4.3}>Details</MenuItem>
           </NavDropdown>
 
         </Nav>

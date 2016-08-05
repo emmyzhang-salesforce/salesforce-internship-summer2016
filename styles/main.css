@@ -1,4 +1,7 @@
-.pie_chart {
-  width: 500px;
-  height: 500px;
+@@font-face {
+  font-family: SalesforceSans-Regular;
+  src: url(./assets/fonts/SalesforceSans-Regular.ttf);
+}
+html, body {
+  font-family: SalesforceSans-Regular;
 }
