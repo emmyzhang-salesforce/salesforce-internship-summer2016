@@ -4,6 +4,7 @@
   "description": "site for my internship experiences",
   "scripts": {
     "start": "node server.js",
+    "build": "webpack --config webpack.config.js --progress --colors",
     "lint": "eslint src"
   },
   "repository": {
