@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {Chart} from 'react-google-charts'
 
 export default class NonTechChart extends Component {

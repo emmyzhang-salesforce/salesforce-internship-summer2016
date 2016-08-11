@@ -33,6 +33,7 @@
     "react": "^0.14.6",
     "react-bootstrap": "^0.30.2",
     "react-dom": "^0.14.6",
-    "react-google-charts": "^1.0.2"
+    "react-google-charts": "^1.0.2",
+    "react-router": "^2.6.1"
   }
 }
