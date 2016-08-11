@@ -9,7 +9,7 @@ module.exports = {
   ],
   scripts: {
     "postinstall": "webpack --config ./webpack.config.js --progress --colors",
-    "start": "node server.js"
+    "start": "node heroku-server.js"
   },
   output: {
     path: path.join(__dirname, 'public'),
