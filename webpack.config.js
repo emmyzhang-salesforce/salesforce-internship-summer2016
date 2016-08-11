@@ -30,14 +30,5 @@ module.exports = {
         'NODE_ENV': JSON.stringify('production')
       }
     })
-  ],
-
-  module: {
-    loaders: [
-      { test: /\.js?$/,
-        loader: 'babel',
-        exclude: /node_modules/
-      }
-    ]
-  }
+  ]
 }
