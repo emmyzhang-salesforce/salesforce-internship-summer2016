@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import Navbar from './Navbar'
 
 export default class LayoutComponent extends Component {
     render() {
       return (
           <div>
-              {this.props.children}
+            <Navbar />
+            {this.props.children}
           </div>
       );
     }

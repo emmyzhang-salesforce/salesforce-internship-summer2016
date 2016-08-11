@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class Projects extends Component {
   render() {
     return (
-      <div className="projectsContent">
-        <h1>Summer Projects</h1>
+      <div className="mainContent">
+        <h1>Projects</h1>
         <ul>
           <li>PhantomCSS</li>
           <li>Contact-Audience Builder Tickets:</li>
@@ -13,7 +13,7 @@ export default class Projects extends Component {
               <li>Audience Builder Pageheader</li>
               <li>Environment Endpoints</li>
             </ul>
-          <li>Eventforce App</li>
+          <li>Eventforce App/Logo</li>
           <li>UX SLDS Postcards</li>
           <li>Internship Summary Website (originally a deployment schedule app)</li>
         </ul>

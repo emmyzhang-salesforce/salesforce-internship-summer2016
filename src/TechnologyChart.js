@@ -8,13 +8,14 @@ export default class TechnologyChart extends Component {
         chartType = "PieChart"
         data = {[
           ["Knowlege","Percentage"],
-          ["React",35],
+          ["React/React-Router",35],
           ["PhantomCSS", 25],
           ["Salesforce Lightning Design System (SLDS)",15],
           ["NodeJs/ExpressJs",10],
           ["Github",5],
           ["Gulp", 5],
-          ["Javascript - Regex", 5]
+          ["Javascript", 5],
+          ["Heroku", 5]
         ]}
         options = {{"title":"Technologies I used/learned"}}
         graph_id = "PieChart"

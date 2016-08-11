@@ -4,6 +4,7 @@ import { Nav, NavItem, NavDropdown, MenuItem, Navbar } from 'react-bootstrap';
 export default class NavBar extends Component {
   render() {
     return (
+      <div>
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
@@ -11,20 +12,17 @@ export default class NavBar extends Component {
           </Navbar.Brand>
         </Navbar.Header>
 
-        <Nav>
-          <NavItem eventKey={1} href="/">Home</NavItem>
-          <NavItem eventKey={2} href="#">About</NavItem>
-          <NavItem eventKey={3} href="/projects">Projects</NavItem>
-          <NavDropdown eventKey={4} title="What I learned" id="basic-nav-dropdown">
-            <MenuItem eventKey={4.1} href="/technology">Technologies</MenuItem>
-            <MenuItem eventKey={4.2} href="/nonTech">Non tech</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={4.3}>Details</MenuItem>
+        <Nav pullRight>
+          <NavItem eventKey={1} href="/projects">Projects</NavItem>
+          <NavDropdown eventKey={2} title="What I learned" id="basic-nav-dropdown">
+            <MenuItem eventKey={2.1} href="/technology">Technologies</MenuItem>
+            <MenuItem eventKey={2.2} href="/nonTech">Non tech</MenuItem>
           </NavDropdown>
-          <NavItem eventKey={5} href="/thanks">Thanks</NavItem>
-
+          <NavItem eventKey={3} href="/thanks">Thanks</NavItem>
+          <NavItem eventKey={3} href="/contact">Contact</NavItem>
         </Nav>
-    </Navbar>
+      </Navbar>
+    </div>
     );
   }
 }
